@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+General How To Use C++ -> If you just finished CSCE 145
+-------------------------------------------------------------------------------
+
+From a Windows Machine
+-- Just Don't. I've had issues in the past, try to emulate Ubuntu if you can.
+
+From a Unix Machine (Like OSX or Linux)
+--  Learn to Use Text Editors.
+    For those who know the terminal, use Vim, for others, try out Atom.
+
+--  Once you have written your first program in C++, use the following line.
+    g++ <insert_your_file_name_here>
+
+--  After you have debugged your program, you should have a "a.out"
+    this is the standard executable from g++, once you have learned how to 
+    use makefiles, you may be able to rename the output executable. After
+    seeing your "a.out" use the execution operator in the terminal:
+    ./a.out
+
+--  Once you have executed and finished debugging, congrats, you can do C++!
