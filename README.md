@@ -2,6 +2,7 @@
 CSCE 240 Fall 2017 for Students in Section 003 with Casey Cole.
 
 SI Website: TBA
+
 My email: judsonj@email.sc.edu
 
 This GitHub repository is designed to be a resource for coding examples, helpful information regarding homeworks, and other information that can be gathered to make more sense of C++ and the software engineering process.
