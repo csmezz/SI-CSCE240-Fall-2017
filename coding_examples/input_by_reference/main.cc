@@ -3,7 +3,7 @@
  * Since: 09-03-2017
  * Version: 1.0
  * Purpose: Introduction to how to accept user input in C++,
- * 					pass by reference, and how to utilize functions outside of main.
+ * 		pass by reference, and how to utilize functions outside of main.
 *///----------------------------------------------------------------------------
 
 // Include Statements
@@ -56,7 +56,7 @@ int main (int argc, char** argv) {
  * Parameters: Pointers to the local string and integer values in main
  * Returns: nothing (passed by reference, not by value)
  *
-**/
+**///---------------------------------------------------------------------------
 void GetInput (string& name, int& fav_number) {
 	cout << "Hello, please enter your name, a space, and your favorite number"
 			 << endl;
