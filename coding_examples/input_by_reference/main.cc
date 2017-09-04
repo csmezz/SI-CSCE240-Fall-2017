@@ -3,7 +3,7 @@
  * Since: 09-03-2017
  * Version: 1.0
  * Purpose: Introduction to how to accept user input in C++,
- * 		pass by reference, and how to utilize functions outside of main.
+ * pass by reference, and how to utilize functions outside of main.
 *///----------------------------------------------------------------------------
 
 // Include Statements
@@ -51,8 +51,9 @@ int main (int argc, char** argv) {
 /**
  * Function: void GetInput (string& name, int& fav_number) 
  * Purpose: Utilizes pass by reference so that we can collect data from
- * 		standard input without returning variables, instead reassigning the
- *		value at the memory address.
+ * standard input without returning variables, instead reassigning the
+ * value at the memory address.
+ *
  * Parameters: Pointers to the local string and integer values in main
  * Returns: nothing (passed by reference, not by value)
  *
@@ -67,9 +68,10 @@ void GetInput (string& name, int& fav_number) {
 /**
  * Function: string GetReversedString (string);
  * Purpose: Reverses the provided string of characters by going through half
- * 		of the array of characters and swapping the first and last one, then each
- * 		is incremented and decremented, respectfully. Notes have been added for
- * 		warnings of memory leaks and such.
+ * of the array of characters and swapping the first and last one, then each
+ * is incremented and decremented, respectfully. Notes have been added for
+ * warnings of memory leaks and such.
+ * 
  * Parameters: name
  * Returns: reversed string
 **///---------------------------------------------------------------------------
@@ -92,9 +94,10 @@ string GetReversedString (string name) {
 /**
  * Function: string GetSortedString (string);
  * Purpose: Using the ASCII Values of the characters in the string, the program
- * 		will go through the string and sort them using bubble sort. This will not
- *		correctly sort mixed case strings, since upper and lower cased letters
- *		have different ASCII assignments.
+ * will go through the string and sort them using bubble sort. This will not
+ * correctly sort mixed case strings, since upper and lower cased letters
+ * have different ASCII assignments.
+ *
  * Parameters: the name gathered from GetInput
  * Returns: the lexographically sorted string
 **///---------------------------------------------------------------------------
